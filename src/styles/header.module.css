@@ -30,37 +30,6 @@ b{
     margin-top: 60px;
     text-align: center;
 }
-.statistics-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.statistics-container>div{
-    display: flex;
-    border: 2px solid rgba(135, 183, 40, 0.651);
-    justify-content: center;
-    font-family: Neurial Grotesk;
-    width: 60%;
-    justify-content: space-between;
-    padding: 40px;
-
-}
-.box-container{
-    justify-content: space-between;
-    border-right: 1px solid rgba(135, 183, 40, 0.651);
-    padding-right: 8%;
-}
-.box-container h1{
-    margin: 0;
-    font-weight: 600;
-    color: yellow;
-}
-.box-container h4{
-    margin: 0;
-    color: whitesmoke;
-    font-weight: 500;
-}
 
 /* <----------responsiveness------> */
 @media only screen and (max-width:800px){
@@ -78,4 +47,5 @@ b{
          text-align: center;
          width: 60%;
     }
+    
 }

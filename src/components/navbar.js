@@ -1,10 +1,14 @@
-import {navBar,brandLogoImg, navBarContainer, tradeNowBtn} from "../styles/navbar.module.css";
+import {
+  navBar,
+  navBarContainer,
+  tradeNowBtn,
+} from "../styles/navbar.module.css";
 import React from "react";
 import brandLogo from "../assets/brand-logo.png";
 export function Navbar() {
   return (
     <nav className={navBar}>
-      <div className={brandLogoImg}>
+      <div >
         <img src={brandLogo} alt="destiny logo"></img>
       </div>
       <ul className={navBarContainer}>

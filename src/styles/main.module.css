@@ -1,0 +1,203 @@
+
+.statistics-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.statistics-container>div {
+    display: flex;
+    border: 2px solid rgba(135, 183, 40, 0.651);
+    justify-content: center;
+    font-family: Neurial Grotesk;
+    width: 60%;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.box-container {
+    justify-content: space-between;
+    border-right: 1px solid rgba(135, 183, 40, 0.651);
+    padding-right: 5%;
+    padding-left: 1%;
+}
+
+.box-container h1 {
+    margin: 0;
+    font-weight: 600;
+    color: yellow;
+}
+
+.box-container h4 {
+    margin: 0;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.phones-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.phones-container>div {
+    padding: 5%;
+}
+.phones-container img{
+    width: 35%;
+}
+
+.trade-more-container {
+    text-align: center;
+    display: block;
+}
+
+.trade-more-container h1 {
+    font-size: 4.5rem;
+    margin: 0;
+}
+.trade-more-container h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin:15px 0;
+    color: rgb(188, 224, 212);
+
+}
+
+.trade-more-container p{
+    margin: 0;
+    display: inline;
+    color: yellow;
+}
+.coin-comparison{
+    margin-top: 100px;
+}
+.coin-comparison img{
+    width: 90%;
+}
+
+.explore-container{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 200px;
+}
+.explore-container p{
+    display: inline-block;
+    margin: 0;
+    color: yellow;
+}
+.explore-container h1{
+    margin: 0;
+}
+.explore-container h5{
+    margin: 0;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(188, 224, 212);
+}
+.coin-chart-container{
+    margin-top: 60px;
+}
+.coin-chart-container img{
+    width: 90%;
+}
+.explore-market-btn{
+    display: block;
+    margin: auto;
+    width: 268px;
+    height: 48px;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px rgba(168, 239, 156, 0.8);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.unlock-container {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 200px;
+}
+
+.unlock-container p {
+    display: inline-block;
+    margin: 0;
+    color: yellow;
+}
+.unlock-container h1 {
+    margin: 0;
+}
+
+.unlock-container h5 {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(188, 224, 212);
+}
+
+.overview-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.overview-container>div {
+    display: flex;
+    border: 2px solid rgba(142, 115, 115, 0.649);
+    justify-content: center;
+    font-family: Neurial Grotesk;
+    width: 60%;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.overview-box {
+    justify-content: space-between;
+    border-right: 1px solid rgba(160, 138, 138, 0.597);
+    padding-right: 5%;
+    padding-left: 1%;
+}
+
+.overview-box h1 {
+    margin: 0;
+    font-weight: 600;
+    color: white;
+}
+.BSTDIMG{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/* <----------responsiveness------> */
+@media only screen and (max-width:800px) {
+
+        .box-container h1 {
+            font-size: 1.5rem;
+        }
+    
+        .box-container h4 {
+            font-size: .5rem;
+        }
+        .phones-container>div>img{
+            width: 40%;
+        }
+        .trade-more-container h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .trade-more-container h5 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin: 15px 0;
+            color: rgb(188, 224, 212);
+
+        }
+}

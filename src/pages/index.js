@@ -1,12 +1,14 @@
 import * as React from "react";
 import { Navbar } from "../components/navbar";
 import { Header } from "../components/header";
+import { Main } from "../components/main";
 const IndexPage = () => {
   return (
-    <main>
+    <>
       <Navbar />
-      <Header/>
-    </main>
+      <Header />
+      <Main/>
+    </>
   );
 };
 
