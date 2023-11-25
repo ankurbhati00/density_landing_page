@@ -1,0 +1,63 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+
+.nav-bar{
+    display: flex;
+    margin: 10px 10%;
+    font-size: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid rgb(20, 62, 20);
+    padding-bottom: 10px;
+       
+}
+
+.nav-bar-container{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 6%;
+        width: 90%;
+        height: 48px;
+}
+
+.trade-now-btn{
+    height: 45px;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px rgba(168, 239, 156, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Neurial Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+
+
+}
+
+/* <--------------responsiveness-----------> */
+@media only  screen and (max-width:800px) {
+    .nav-bar{
+        margin: 10px 0%;
+        font-size: 1rem;
+    }
+    .trade-now-btn{
+        font-size: 0.8rem;
+        height: 30px;
+    }
+
+}
