@@ -1,0 +1,243 @@
+.users-review-container{
+    background-color: white;
+    height: 900px;
+}
+.users-review-container h1{
+    background-color: white;
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    padding: 100px 0 10px 0;
+}
+.users-review-container h5{
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.users-image-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 50px 0;
+    padding: 50px 0 100px 0;
+}
+.users-image-container img{
+    width: 25%;
+}
+.earn-money-container{
+    text-align: center;
+}
+.earn-money-container h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 100px 0 0 0;
+}
+.earn-money-container h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 50px 0 0;
+}
+.earn-money-images-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 0;
+}
+.start-earning-btn{
+    display: block;
+    margin: auto;
+    width: 268px;
+    height: 48px;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px rgba(168, 239, 156, 0.8);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+/* trade togather section */
+.trade-togather-container{
+    
+    height: 700px ;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+.background-image{
+    background-image: url('../assets/professional_laptop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(7px);
+    height: 100%;
+    width: 100%;
+}
+.text-content{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    height: inherit;
+    width: inherit;
+    background-color: transparent;
+}
+.trade-togather-container h1{
+    background-color: transparent;
+    font-size: 4rem;
+    padding-top: 100px;
+}
+.trade-togather-container b{
+    background-color: transparent;
+}
+.trade-togather-container h5{
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.trade-numbers-container{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    width: 60%;
+    margin:0 20% ;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.trade-numbers-container h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.trade-numbers-container h5{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 25%;
+    padding: 3%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-right: 1px solid white;
+}
+.join-community-btn{
+    border: none;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px rgba(168, 239, 156, 0.8);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+/* visonarise cection */
+.visionaries-container{
+    text-align: center;
+}
+
+.visionaries-container h1{
+    font-size: 4rem;
+    margin: 50px 0;
+}
+.visionaries-image-container{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+.get-started-container{
+    text-align: center;
+    margin-top: 200px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.big-phone{
+    display: block;
+    width: 30%;
+    margin: 0 35%;
+}
+.get-started-text {
+    width: 60%;
+    margin: 0 20%;
+}
+.start-trading-btn-big{
+    display: block;
+    margin: auto;
+    width: 40vw;
+    height: 6vw;
+    background: linear-gradient(85.85deg, #D4F938 23.09%, #32D875 108.69%);
+    box-shadow: 0px 0px 16px rgba(168, 239, 156, 0.8);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: -200px;
+
+}
+
+/* bootom footer content */
+.bottom-footer{
+    height: 300px;
+    background-color: #32D875 !important;
+    margin-top: 200px;
+}
+.brand-logo{
+    text-align: center;
+    padding-top: 30px;
+}
+.brand-logo img{
+    background-color: #32D875;
+    
+}
+.bottom-footer div{
+    background-color: #32D875;
+    justify-content: center;
+}
+.bottom-footer ul{
+    background-color: #32D875 !important;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    gap: 5%;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 30px 0;
+}
+.bottom-footer ul>li{
+    background-color: #32D875 !important;
+    margin: 0;
+    text-transform: capitalize;
+}
+.temp-content{
+    padding:0 20%;
+}
+.social-icons{
+    padding-top: 30px;
+    display: flex;
+    gap: 6%;
+}
+.social-icons img{
+    background-color: #32D875; 
+   
+}
