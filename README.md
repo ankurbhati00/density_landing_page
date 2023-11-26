@@ -6,6 +6,8 @@
 <h1 align="center">
   Gatsby Minimal Starter
 </h1>
+## Hoasted Link
+[live](https://legendary-khapse-ffd4c9.netlify.app)
 
 ## 🚀 Quick start
 
